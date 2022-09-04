@@ -1,0 +1,156 @@
+.portfolio .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.portfolio .box-container .box{
+    height: 30rem;
+    width: 40rem;
+    border-radius: 2rem;
+    margin:2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolio .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.portfolio .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
+@media (max-width:1200px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .home{
+        padding:1rem 4rem;
+    }
+
+}
+
+@media (max-width:991px){
+
+   header{
+       left:-120%;
+   }
+
+   #menu{
+       display: block;
+   }
+
+   header.toggle{
+    left: 0%;
+   }
+
+   body{
+       padding:0;
+   }
+
+   .awards{
+        margin-top: 50px;
+    }
+
+    .skills{
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .awards{
+        margin-top: 50px;
+    }
+
+    .portfolio{
+        margin-top: 50px;
+    }
+
+    .skills{
+        margin-top: 50px;
+    }
+
+    .projects{
+        margin-top: 50px;
+    }
+ 
+ }
+
+@media (max-width:400px){
+
+    header{
+        width: 100vw;
+    }
+
+    .heading{
+        margin:0 3rem;
+    }
+
+    .about .row .counter .box{
+        width: 100%;
+    }
+ 
+    .education .box-container .box{
+        width:100%;
+    }
+
+    .portfolio .box-container .box{
+        width:100%;
+    }
+
+    .contact .row form{
+        margin:3rem 0;
+    }
+
+    .connect-item img{
+        width: 50%;
+    }
+
+    .awards{
+        margin-top: 50px;
+    }
+
+    .portfolio{
+        margin-top: 50px;
+    }
+
+    .skills{
+        margin-top: 50px;
+    }
+
+    .projects{
+        margin-top: 50px;
+    }
+
+ }
+
+ @media (max-width:1024px){
+    .awards{
+        margin-top: 50px;
+    }
+
+    .portfolio{
+        margin-top: 50px;
+    }
+
+    .projects{
+        margin-top: 10px;
+    }
+
+    .skills{
+        margin-top: 10px;
+    }
+ }
