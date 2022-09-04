@@ -74,11 +74,11 @@
 }
 
 #contact-box .social{
-    padding: 10px;
+    padding: 8px;
 }
 
 .contact h3 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     color:#fff;
     font-size: 3rem;
     padding-bottom: 2rem;

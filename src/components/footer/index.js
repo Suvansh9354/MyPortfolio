@@ -23,7 +23,6 @@ function Footer() {
                     <h3> <i className="FaPhoneAlt"><FaPhoneAlt /></i> 9811595952 </h3>
                     <h3> <i className="FaMapMarkerAlt"><FaMapMarkerAlt /></i> India, Delhi - 110015. </h3>
                 </div>
-
             </div>
 
             <form action="">
