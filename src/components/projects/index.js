@@ -17,10 +17,9 @@ function Projects() {
                         this Web Application is that it provides feeds section, story section and also post section.</p>
                     <a href="https://suvansh-facebook-clone.netlify.app/"><button
                             className="btn"><i className='FaTelegramPlane'><FaTelegramPlane /></i> Please Visit  </button></a>
-                    <li>Placement Tracker (Working on it)</li>
-                    <p>Placement Tracker is a Web Application by which users can login and register through which they
-                        can enroll for the jobs in different companies. It also provides previous years interview
-                        questions and answers with article.</p>
+                    <li>My Blog</li>
+                    <p>My Blog is a Web Application in which users can login and register and also write blogs and post on the server. 
+                        I have used the following technologies: ReactJS, NodeJS, Material UI, ExpressJS, MongoDB. Users can post the blogs and they can edit whenever they want.</p>
                         <a href="https://gitlab.com/SuvanshNayyar/placementtrackerwebsite"><button
                             className="btn"><i className='FaTelegramPlane'><FaTelegramPlane /></i> Please Visit  </button></a>
                 </ul>
