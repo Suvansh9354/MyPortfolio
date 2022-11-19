@@ -7,6 +7,7 @@ import img5 from './img/img5.png';
 import img6 from './img/img6.png';
 import img7 from './img/img7.jpg';
 import img8 from './img/img8.jpg';
+import img9 from './img/img9.png';
 
 function Portfolio() {
     return(
@@ -47,6 +48,12 @@ function Portfolio() {
             <div className="box">
                 <img src={img8} alt="" />
             </div>
+
+            <div className="box">
+                <img src={img9} alt="" />
+            </div>
+
+
         </div>
 
     </section>
