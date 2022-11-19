@@ -15,7 +15,7 @@ function About() {
                 <h3> <span> qualification : </span> Bachelor's in Computer Applications </h3>
                 <h3> <span> post : </span> Web Developer </h3>
                 <h3> <span> language : </span> hindi, English </h3>
-                <a href="https://github.com/Suvansh9354/MyResume/raw/main/Suvansh%20Resume.pdf"><button
+                <a href="https://github.com/Suvansh9354/MyResume/archive/refs/heads/main.zip"><button
                         className="btn"> download resume <i className="FaDownload"><FaDownload /></i> </button></a>
             </div>
         </div>
