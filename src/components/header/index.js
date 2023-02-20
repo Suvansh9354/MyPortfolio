@@ -8,6 +8,7 @@ import { CgAwards } from 'react-icons/cg';
 import { FaCode } from 'react-icons/fa';
 import { TbCertificate } from 'react-icons/tb';
 import { MdContacts } from 'react-icons/md';
+import'./script.js';
 
 function Header() {
     return(
