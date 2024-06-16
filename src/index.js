@@ -1,34 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Header from './components/header';
-import Menu from './components/menu';
-import Home from './components/home';
-import About from './components/about';
-import Education from './components/education';
-import Skills from './components/skills';
-import Awards from './components/awards';
-import Projects from './components/projects';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Portfolio from './components/portfolio';
-import Scroll from './components/scroll';
-import Footer from './components/footer';
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <Menu />
-    <Home />
-    <About />
-    <Education />
-    <Skills />
-    <Awards />
-    <Projects />
-    <Portfolio />
-    <Scroll />
-    <Footer />
+    <App />
   </React.StrictMode>
 );
 
